@@ -14,6 +14,7 @@
 }
 .wham{
     position: absolute;
+    /* display: flex; */
     text-align: right;
     padding: 5%;
     left: 80%;

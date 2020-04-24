@@ -12,13 +12,14 @@ window.addEventListener("load", function(){
     style = window.getComputedStyle(ham),
     top = style.getPropertyValue('display');
     console.log(ham.style.display);
-    if(ham.style.display = 'none')
+    if(ham.style.display == 'none')
     {
         desknav.classList = 'navvan dnav';
         console.log("display is null");
     }
     else
     {
+        desknav.classList = 'navvan nav';
         console.log("wtf happenin");
     }
 });
