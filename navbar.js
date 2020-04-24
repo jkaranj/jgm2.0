@@ -8,11 +8,13 @@ const wwham = document.querySelector(".ham");
 ham.addEventListener("click", () => {
     nav.classList.toggle("open");
 });
-window.addEventListener("load", function(){
-    style = window.getComputedStyle(ham),
-    top = style.getPropertyValue('display');
+window.addEventListener("load", () => {
+    const valueeee = ham.style.display;
+    // style = window.getComputedStyle(ham),
+    // top = style.getPropertyValue('display');
+    // console.log(valueeee);
     console.log(ham.style.display);
-    if(ham.style.display == 'none')
+    if(ham.style.display === 'none')
     {
         desknav.classList = 'navvan dnav';
         console.log("display is null");
@@ -23,7 +25,7 @@ window.addEventListener("load", function(){
         console.log("wtf happenin");
     }
 });
-window.addEventListener("scroll", function(){
+window.addEventListener("scroll", () => {
     if(window.pageYOffset > 100 & ham.style.display == 'none')
     {
         desknav.classList += ' dsnav';
@@ -38,7 +40,7 @@ window.addEventListener("scroll", function(){
     // }
 })
 
-window.addEventListener("scroll", function() {
+window.addEventListener("scroll", () => {
     if(window.pageYOffset > 100)
     {
         bar.classList += ' bar2';
