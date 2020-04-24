@@ -23,23 +23,33 @@ window.addEventListener("load", function(){
         console.log("wtf happenin");
     }
 });
+window.addEventListener("scroll", function(){
+    if(window.pageYOffset > 100 & ham.style.display == 'none')
+    {
+        desknav.classList += ' dsnav';
+    }
+    if(window.pageYOffset <= 100 & ham.style.display == 'none')
+    {
+        desknav.classList = 'navvan dnav';
+    }
+    // else
+    // {
+    //     desknav.classList = 'navvan dnav';
+    // }
+})
 
 window.addEventListener("scroll", function() {
     if(window.pageYOffset > 100)
     {
-        desknav.classList += ' dsnav';
         bar.classList += ' bar2';
         // wbham.classList += ' wham';
         wwham.classList = ' wham';
         // dsnav.style.color = rgb(192, 192, 192);
-
     }
     else
     {
         bar.classList =  'bar1';
         // wbham.classList = 'bham fas fa-bars';
         wwham.classList = 'ham';
-        desknav.classList = 'navvan dnav';
-
     }
 });
