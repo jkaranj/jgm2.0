@@ -1,0 +1,189 @@
+@media screen and (min-width: 980px){
+    .ham{
+        display: none;
+    }
+    .wham{
+        display: none;
+    }
+
+    .dnav{
+        width: 70%;
+        height: 8vh;
+        background: none;
+        position: fixed;
+        margin-left: 30%;
+        margin-right: -100%;
+        z-index: 100;
+        margin-top: 1%;
+
+
+    }
+    .dnav ul{
+        display: flex;
+        /* float: right; */
+        justify-content: space-around;
+        padding: 2%;
+        
+    }
+    .dnav ul li{
+        list-style: none;
+    }
+    .dnav ul a{
+        text-decoration: none;
+        color: rgb(68, 68, 68);
+        /* font-size: 1rem;
+        line-height: 1rem; */
+        font-family: sans-serif;
+    }
+    .dnav ul a:hover{
+        font-size: 1.1rem;
+        color: rgb(0, 0, 0);
+    }
+    .dsnav ul a{
+        color: rgb(192, 192, 192);
+    }
+    .dsnav ul a:hover{
+        font-size: 1.1rem;
+        color: rgb(243, 243, 243);
+    }
+    /* .dsnav{
+        z-index: 100;
+        width: 70%;
+        height: 8vh;
+        background: none;
+        position: fixed;
+        margin-left: 30%;
+        margin-right: -100%;
+    }
+    .dsnav ul{
+        display: flex;
+        justify-content: space-around;
+        padding: 2%;
+        
+    }
+    .dsnav ul li{
+        list-style: none;
+    }
+    .dsnav ul a{
+        text-decoration: none;
+        color: rgb(192, 192, 192);
+        font-family: sans-serif; 
+    }*/
+
+    .home{
+        grid-template-columns: 3fr 5fr;
+        grid-template-rows: 5fr 3fr 1fr 1fr;
+        grid-template-areas: 
+        "logo head1"
+        ". slogan1"
+        ". ."
+        "sicon1 bgroup1";
+    }
+    .logoo{
+        display: block;
+        padding-top: 10%;
+    }
+    .logoo img{
+        width: 60%;
+    }
+    .header1{
+        padding-top: 8%;
+    }
+    .header1 h1{
+        font-size: 380%;
+        line-height: 60%;
+        /* font-size: 4rem;
+        line-height: 2rem; */
+        font-family: "Arial Black", Gadget, sans-serif;
+    }
+    .slogan{
+        padding-top: 0;
+        align-items: flex-start;
+    }
+    .slogan p{
+        margin-left: -50%;
+        font-size: 1.3rem;
+    }
+    .slogan i{
+        margin-left: -50%;
+        padding-top: 1%;
+        font-size: 1.5rem;
+    }
+    .sIcon1{
+        padding-left: 10%;
+    }
+    .sIcon1 img{
+        width: 50%;
+    }
+    .bGroup1 button{
+        width: 25%;
+        padding: 1%;
+    }
+
+    .about{
+        grid-template-columns: 3fr 5fr;
+        grid-template-rows: 2fr 4fr 1fr;
+        grid-template-areas: 
+        "bnr bnr"
+        "pic1 para1"
+        "pic1 butt1";
+    }
+    .abtbnnr h1{
+        font-size: 4rem;
+        padding-top: 3%;
+        padding-left: 10%;
+    }
+    .abtpic{
+        grid-area: pic1;
+        display: flex;
+        text-align: center;
+        align-items: flex-start ;
+    }
+    .abtpara{
+        padding-left: 7%;
+        padding-right: 11%;
+    }
+    .abtbtn1{
+        text-align: left;
+        align-items: flex-start;
+        padding-left: 7%;
+    }
+    .abtbtn1 button{
+        /* margin-top: 20%; */
+        width: 40%;
+        height: 70%;
+        margin: 0;
+    }
+
+    .cont{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 0.5fr 5fr 2.5fr;
+        grid-template-areas: 
+        "head2 head2"
+        "sicon2 sicon2"
+        "cntp cntf"
+        "cntview cntm";
+    }
+    .siconcont img{
+        width: 5%;
+        margin: auto;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .contdetail{
+        padding-left: 10%;
+        padding-top: 8%;
+    }
+    .contdetail i{
+        padding: 1%;
+    }
+    #conthr{
+        display: none;
+    }
+    .foot2 a{
+        padding-top: 0%;
+        font-size: 0.8rem;
+    }
+    
+
+}

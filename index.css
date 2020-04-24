@@ -1,0 +1,21 @@
+.logoo{
+    grid-area: logo;
+    background-color: rosybrown;
+    
+}
+.header1{
+    grid-area: head1;
+    background-color: salmon;
+}
+.slogan{
+    grid-area: slogan1;
+    background-color: seagreen;
+}
+.sIcon1{
+    grid-area: sicon1;
+    background-color: skyblue;
+}
+.bGroup1{
+    grid-area: bgroup1;
+    background-color: slateblue;
+}
