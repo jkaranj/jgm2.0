@@ -120,7 +120,7 @@ html{
 }
 .abtpic{
     grid-area: pic1;
-    display: flex;
+    display: block;
     text-align: center;
     align-items: center;
 }
@@ -129,6 +129,7 @@ html{
 }
 .abtpara{
     grid-area: para1;
+    font-family: 'Spartan', sans-serif;
     padding: 5%;
 }
 .abtpara p{
@@ -201,7 +202,11 @@ html{
     padding-left: 4%;
     font-size: 1.5rem;
 }
+.contdetail p{
+    font-family: 'Abel', sans-serif;
+}
 .contdetail a{
+    font-family: 'Abel', sans-serif;
     color: #000;
     text-decoration: none;
 }
@@ -219,11 +224,15 @@ html{
     padding-top: 8%;
     font-size: 1.5rem;
 }
+.cntform #fillform{
+    background-color: rgba(253, 251, 246, 0.7);
+}
 .cntform #fillform label
 {
-    padding: 2%;
+    font-family: 'Abel', sans-serif;
+    /* padding: 2%; */
     padding-top: 5%;
-    margin-top: 3%;
+    /* margin-top: 10%; */
 } 
 #fillform input[type=text],[type=number],[type=email], textarea, select
 {
@@ -272,11 +281,11 @@ html{
 }
 .cntview{
     grid-area: cntview;
-    background-color: seagreen;
+    padding: 5%;
 }
 .cntm{
     grid-area: cntm;
-    background-color: slateblue;
+    padding: 5%;
 }
 .foot2{
     width: 100%;
@@ -290,8 +299,9 @@ html{
 .foot2 a{
     text-decoration: none;
     color: #0b3338;
-    font-size: 1rem;
-    font-family: sans-serif;
+    font-size: 0.7rem;
+    font-family: 'Abel', sans-serif;
+    /* font-family: sans-serif; */
     align-self: center;
     vertical-align: middle;
     margin: auto;

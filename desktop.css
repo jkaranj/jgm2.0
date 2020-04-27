@@ -135,13 +135,18 @@
     }
     .abtpic{
         grid-area: pic1;
-        display: flex;
+        display: block;
         text-align: center;
         align-items: flex-start ;
     }
     .abtpara{
-        padding-left: 7%;
-        padding-right: 11%;
+        padding: 8%;
+        padding-top: 10%;
+        /* padding-left: 7%; */
+        padding-right: 18%;
+    }
+    .abtpara p{
+        font-size: 1.5rem;
     }
     .abtbtn1{
         text-align: left;
@@ -179,6 +184,20 @@
     }
     #conthr{
         display: none;
+    }
+    .cntform #fillform{
+        padding-left: 5%;
+        padding-bottom: 2%;
+    }
+    .formelements label{
+        display: block;
+        /* padding-top: %; */
+    }
+    .cntview{
+        padding: 5%;
+    }
+    .cntmap{
+        padding: 5%;
     }
     .foot2 a{
         padding-top: 0%;
