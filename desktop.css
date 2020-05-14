@@ -118,6 +118,11 @@
     .bGroup1 button{
         width: 25%;
         padding: 1%;
+        transition: all 0.3s ease-in;
+    }
+    .bGroup1 button:hover{
+        background-color: rgba(250, 250, 250, 0.7);
+        transform: scale(1.01);
     }
 
     .about{
@@ -158,6 +163,11 @@
         width: 40%;
         height: 70%;
         margin: 0;
+        transition: all 0.3s ease-in;
+    }
+    .abtbtn1 button:hover{
+        background-color: rgba(250, 250, 250, 0.7);
+        transform: scale(1.01);
     }
 
     .cont{
