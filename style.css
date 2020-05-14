@@ -248,7 +248,7 @@ html{
     background-color: rgba(0, 0,0,0);
 }
 .error{
-    border-bottom: 2px solid rgb(228, 33, 33);
+    border-bottom: 2px solid rgb(228, 33, 34);
 }
 #fillform input[type=submit]
 {
