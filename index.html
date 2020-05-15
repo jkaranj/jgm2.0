@@ -125,29 +125,39 @@
                 <h3>Fill this form for a follow up </h3>
                 </div>
                 <div class="formelements">
-                <form id="fillform" method="GET">
+                <form id="fillform">
                     <label for="name">Name</label><br>
                     <input type="text" id="name" placeholder="Enter your name here"><br>
+
                     <label for="mob">Mobile Number</label><br>
                     <input type="number" id="mob" placeholder="Enter your mobile number here"><br>
+
                     <label for="mail">E-mail</label><br>
                     <input type="email" id="mail" placeholder="Enetr your email"><br>
+
                     <label for="query">Message</label><br>
                     <textarea id="query" placeholder="Write your enquiry/message here"></textarea><br>
+
                     <!-- <label>Please select one</label> -->
-                    <select aria-placeholder="Select atleast one">
+                    <select aria-placeholder="Select atleast one" id="dropdownMenu">
                         <option value="0" selected disabled>Click here to choose one</option>
                         <option value="cust">I am a customer</option>
                         <option value="bp">Want to do business with you</option>
                         <option value="none">none of above</option>
                     </select><br>
+
                     <!-- <label>Do business together</label>
                     <input type="checkbox">
                     <input type="checkbox"><br> -->
+
                     <input type="submit">
                     <input type="reset">
                 </form>
-                <p class="errorMessage">error</p>
+                <p class="errorMessage" id="errmessage1"></p>
+                <p class="errorMessage" id="errmessage2"></p>
+                <p class="errorMessage" id="errmessage3"></p>
+                <p class="errorMessage" id="errmessage4"></p>
+                <p class="errorMessage" id="errmessage5"></p>
                 </div>
             </div>
 

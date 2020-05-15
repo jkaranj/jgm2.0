@@ -285,6 +285,11 @@ html{
     background-color: rgba(92, 33, 33,0.5);
     color: rgb(22, 22, 22);
 }
+.errorMessage{
+    padding-top: 8px;
+    color: rgb(247, 65, 65);
+    font-size: 1rem;
+}
 .cntview{
     grid-area: cntview;
     padding: 5%;
